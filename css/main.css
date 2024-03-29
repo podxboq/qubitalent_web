@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue.otf");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/PlayfairDisplay.ttf");
+}
+
+@font-face {
+    font-family: "Brannboll Connect";
+    src: url("../fonts/BrannbollConnect.ttf");
+}
+
+html {
+    font-family: "Helvetica Neue", serif;
+    background-color: #f1f1f1;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.fondo {
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: calc(100vh - 50px);
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nombre-primera_parte {
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+}
+
+.nombre-segunda_parte {
+    font-family: "Brannboll Connect", serif;
+    font-size: 48px;
+}
+
+.footer{
+    padding-top: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.email {
+    color: #313c48;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.frasecica {
+    display: flex;
+    font-size: 94px;
+    text-align: center;
+    padding: 15px 10px 5px 10px;
+    color: aliceblue;
+    background-color: rgba(0,0,0, 0.6);
+    border: 2px solid #f1f1f1;
+    width: 90%;
+    margin-top: max(25px, 10vh);
+}
+
+@media screen and (max-width: 600px) {
+    .frasecica {
+        font-size: 60px;
+    }
+    .footer {
+        font-size: 13px;
+    }
+}
