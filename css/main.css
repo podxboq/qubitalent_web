@@ -13,6 +13,15 @@
     src: url("../fonts/BrannbollConnect.ttf");
 }
 
+@font-face {
+    font-family: "Alumni Sans";
+    src: url("../fonts/AlumniSans.ttf");
+}
+
+:root{
+    --logo-text-size : 120px;
+}
+
 html {
     font-family: "Helvetica Neue", serif;
     background-color: #f1f1f1;
@@ -37,13 +46,18 @@ html {
 }
 
 .nombre-primera_parte {
-    font-family: "Playfair Display", serif;
-    font-size: 64px;
+    font-family: "Alumni Sans", serif;
+    font-size: var(--logo-text-size);
 }
 
 .nombre-segunda_parte {
+    font-family: "Playfair Display", serif;
+    font-size: calc(0.7 * var(--logo-text-size));
+}
+
+.nombre-tercera_parte {
     font-family: "Brannboll Connect", serif;
-    font-size: 48px;
+    font-size: calc(0.6 * var(--logo-text-size));
 }
 
 .footer{
