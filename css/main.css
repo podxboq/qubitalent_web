@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "Helvetica Neue";
+    font-family: "Default";
     src: url("../fonts/HelveticaNeue.otf");
 }
 
 @font-face {
-    font-family: "Playfair Display";
+    font-family: "LogoT";
     src: url("../fonts/PlayfairDisplay.ttf");
 }
 
 @font-face {
-    font-family: "Brannboll Connect";
+    font-family: "LogoA";
     src: url("../fonts/BrannbollConnect.ttf");
 }
 
 @font-face {
-    font-family: "Alumni Sans";
+    font-family: "LogoQ";
     src: url("../fonts/AlumniSans.ttf");
 }
 
@@ -23,10 +23,23 @@
 }
 
 html {
-    font-family: "Helvetica Neue", serif;
+    font-family: "Default", serif;
     background-color: #f1f1f1;
     margin-top: -8px;
     margin-left: -8px;
+}
+
+.main-menu {
+    display: inline-block;
+    width:100%;
+    background: #fff;
+}
+
+.menu-items {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: right;
 }
 
 .fondo {
@@ -43,20 +56,21 @@ html {
     padding-left: 10px;
     color: aliceblue;
     text-decoration: none;
+    text-align: left;
 }
 
 .nombre-primera_parte {
-    font-family: "Alumni Sans", serif;
+    font-family: 'LogoQ', serif;
     font-size: var(--logo-text-size);
 }
 
 .nombre-segunda_parte {
-    font-family: "Playfair Display", serif;
+    font-family: "LogoT", serif;
     font-size: calc(0.7 * var(--logo-text-size));
 }
 
 .nombre-tercera_parte {
-    font-family: "Brannboll Connect", serif;
+    font-family: "LogoA", serif;
     font-size: calc(0.6 * var(--logo-text-size));
 }
 
@@ -78,8 +92,7 @@ html {
 }
 
 .frasecica {
-    display: flex;
-    font-size: 94px;
+    font-size: 78px;
     text-align: center;
     padding: 15px 10px 5px 10px;
     color: aliceblue;
