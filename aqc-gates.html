@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="description"
+	      content="Quantum computing research. Quantum error correction. Quantum cryptography."/>
+	<meta name="robots" content="all"/>
+	<meta property="og:locale" content="en_EN"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Qubitalent &#124;+&#10217; Quantum computing"/>
+	<meta property="og:description"
+	      content="Quantum computing research. Quantum error correction. Quantum cryptography."/>
+	<meta property="og:url" content="https://www.qubitalent.com/"/>
+	<meta property="og:site_name" content="Qubitalent"/>
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:description"
+	      content="Quantum computing research. Quantum error correction. Quantum cryptography."/>
+	<meta name="twitter:title" content="Qubitalent &#124;+&#10217; Quantum computing"/>
+	<title>Qubitalent &#124;+&#10217; Quantum computing</title>
+	<link rel="canonical" href="https://www.qubitalent.com/"/>
+	<link rel="icon" type="image/x-icon" href="images/logo.svg">
+	<link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' media='all'/>
+	<link rel='stylesheet' href='css/main.css' type='text/css' media='all'/>
+	<script>
+      MathJax = {
+          tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+      };
+	</script>
+	<script id="MathJax-script" async
+	        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+	</script>
+</head>
+<body>
+<header>
+	<nav class="navbar">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.svg" alt="Logotipo" width="100px">
+			</a>
+			<div class="logo align-text-top">
+				<span class="nombre-primera_parte">Q</span><span
+				class="nombre-segunda_parte">UBIT</span><span class="nombre-tercera_parte">alent</span>
+			</div>
+			<div class="d-flex ms-auto">
+				<a href="contact.html" class="btn btn-outline-dark">Contact</a>
+			</div>
+		</div>
+	</nav>
+</header>
+<main>
+	<div id="AlgebraicQuantumCircuits" class="container">
+		<h1><span class="nombre-segunda_parte">&#124;</span><span
+			class="nombre-primera_parte">Q</span><span class="nombre-tercera_parte">t</span>&#10217; Algebraic Quantum Circuit</h1>
+		<h2>Gates</h2>
+	</div>
+	<div class="container">
+		A single-qubit gate $\text{A}$ can be applied over the first qubit of a ket $\ket{a_1 a_2} $ and the result is $\text{A}\ket{a_1}\otimes \ket{a_2}$.
+		It can also be applied over the last of both qubits and then the result is $\ket{a_1}\otimes \text{A}\ket{a_2}$.
+	</div>
+	<div class="container mathjax">
+		Let $\text{A}$ be a single-qubit gate and $\ket{a}=\ket{a_1\cdots a_n}$ is a ket with $n$ qubits, the following equivalent notation is used:
+		\[
+		\bigotimes_{k=1}^n\text{A}^{\delta_{hk}}\ket{a_k}=
+		\begin{cases}
+		\ket{a_1\cdots a_h\text{A}a_{h+1}\cdots a_n}\\
+		\ket{a}\text{A}_h\\
+		\ket{a}^{h}_{\text{A}}
+		\end{cases}
+		\]
+	</div>
+	<div class="container">
+		For example, if $\ket{a}=\ket{a_1 a_2}$ then
+		\[
+		\text{A}\ket{a_1}\otimes \ket{a_2} =
+		\begin{cases}
+		\ket{a_1\text{A}a_2}\\
+		\ket{a}\text{A}_1\\
+		\ket{a}^{1}_{\text{A}}
+		\end{cases}.
+		\]
+	</div>
+	<div class="container mathjax">
+		Let $\Gamma=\set{k_1,\dots,k_l}\subseteq\mathbb{N}_n$ be a set.
+		Let $\text{A}$ be a single-qubit gate, the following notation is used:
+		\begin{align}
+		\text{A}_{\Gamma} &= \text{A}_{k_1,\dots,k_l}=\prod_{k\in\Gamma}\text{A}_k
+		\end{align}
+	</div>
+	<div class="container">
+
+		Note that, according to the previous notation, for the specific case of the empty set $\Gamma=\emptyset$, the resulting quantum gate is the identity gate $\text{A}_\emptyset=\text{I}$.
+
+		For example, if $\ket{a}=\ket{a_1 a_2}$ and $\Gamma = \set{1,2}$, then
+		\[
+		\text{A}\ket{a_1}\otimes \text{A}\ket{a_2} =
+		\begin{cases}
+		\ket{a_1\text{A}a_2\text{A}}\\
+		\ket{a}\text{A}_{1,2}=\ket{a}\text{A}_{\Gamma}\\
+		\ket{a}^{1,2}_{\text{A}}=\ket{a}^{\Gamma}_{\text{A}}
+		\end{cases}.
+		\]
+
+	</div>
+	<div class="text-center"><a class="btn btn-outline-dark" href="aqc-cgates.html">Controled Gates</a></div>
+</main>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4  px-3 mx-4 border-top">
+	<div class="col-md-4 d-flex align-items-center">
+		<a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+			<svg class="bi" width="30" height="24">
+				<use xlink:href="#bootstrap"></use>
+			</svg>
+		</a>
+		<span class="mb-3 mb-md-0 text-body-secondary">&copy;2024 Qubitalent <span class="nombre-segunda_parte">&#124;</span><span
+			class="nombre-primera_parte">Q</span><span class="nombre-tercera_parte">t</span>&#10217;</span>
+	</div>
+	<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+		<li class="ms-2"><a class="text-body-secondary" href="https://www.linkedin.com/company/qubitalent"><img
+			src="images/linkedin.32.png" width="38px" alt="LinkedIn"></a></li>
+		<li class="ms-2"><a class="btn btn-outline-dark" href="privacy.html">Privacy</a></li>
+	</ul>
+</footer>
+</body>
+</html>
