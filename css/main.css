@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Default";
-    src: url("../fonts/HelveticaNeue.otf");
+    src: url("../wp-content/uploads/fonts/HelveticaNeue.otf");
 }
 
 @font-face {
     font-family: "LogoT";
-    src: url("../fonts/PlayfairDisplay.ttf");
+    src: url("../wp-content/uploads/fonts/PlayfairDisplay.ttf");
 }
 
 @font-face {
     font-family: "LogoA";
-    src: url("../fonts/BrannbollConnect.ttf");
+    src: url("../wp-content/uploads/fonts/BrannbollConnect.ttf");
 }
 
 @font-face {
     font-family: "LogoQ";
-    src: url("../fonts/AlumniSans.ttf");
+    src: url("../wp-content/uploads/fonts/AlumniSans.ttf");
 }
 
 html {
@@ -34,33 +34,25 @@ body {
     font-size: 80px;
 }
 
-.logo .nombre-primera_parte {
+.qubitalent {
+    display: ruby;
+    list-style: none;
+}
+
+.qubitalent :first-child {
     font-family: 'LogoQ', serif;
 }
 
-.logo .nombre-segunda_parte {
-    font-family: "LogoT", serif;
-    font-size: 0.7em;
-}
-
-.logo .nombre-tercera_parte {
-    font-family: "LogoA", serif;
-    font-size: 0.6em;
-}
-
-.nombre-primera_parte {
-    font-family: 'LogoQ', serif;
-    font-size: 1.1em;
-}
-
-.nombre-segunda_parte {
-    font-family: "LogoT", serif;
-    font-size: 1.1em;
-}
-
-.nombre-tercera_parte {
-    font-family: "LogoA", serif;
+.qubitalent :nth-child(2){
+    font-family: 'LogoT', serif;
     font-size: 0.8em;
+    margin-left: -0.3em;
+}
+
+.qubitalent :nth-child(3){
+    font-family: 'LogoA', serif;
+    font-size: 0.8em;
+    margin-left: -0.3em;
 }
 
 .frasecica {

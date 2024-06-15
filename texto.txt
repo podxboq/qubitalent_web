@@ -1,0 +1,12 @@
+key features
+Key Features That Set Us Apart
+Explore the features that set us apart.
+Quantum Error Correction
+Quantum error correction is a set of techniques used to protect the information stored in qubits from errors and decoherence caused by noise.
+We are focussed on breaking though this fundamental challenge, by building scalable control systems and fast decoders, and by understanding optimal quantum algorithms for error corrected quantum computers.
+Quantum Computing
+A new multidisciplinary field that includes aspects of computer science, physics and mathematics and that uses principles of fundamental physics, quantum mechanics.
+The use of graphical language in quantum computing for the representation of algorithms, is not very useful for different tasks. We proposes a means to represent quantum circuits in a convenient and concise manner. The proposed notation allows the consistent and parameterized description of quantum algorithms.
+Teaching
+We know that the transfer of knowledge is necessary to train new generations, which is why we work with universities on training in this fascinating technological field.
+Together with the International University of La Rioja (UNIR) we teach the subject quantum computing for the physics degree and direct several TFMs for the quantum computing master's degree.
