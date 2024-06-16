@@ -58,6 +58,30 @@ $body = '
 			</div>
 		</div>
 	</div>
+	<div class="container" id="contact">
+	<h1><ul class="qt_logo"><li>Q</li><li>t</li></ul>Contact</h1>
+	<div class="row row-cols-1 row-cols-md-2 g-3">
+  <div class="col-md-6">
+	Contact us and we will respond as soon as possible.
+  </div>
+  <div class="col-md-6">
+	<form class="row g-3" action="contact" method="post">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+    <label for="content" class="form-label">What do you like?</label>
+    <input type="text" class="form-control" id="content">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        I agree the <a href="#">terms and conditions</a>
+      </label>
+      </div>
+    <button type="submit" class="btn btn-outline-dark">Send</button>
+</form>
+	</div>
+	</div>
 </main>
 ';
 
@@ -67,6 +91,3 @@ $page = ob_get_contents();
 ob_end_clean();
 
 echo $page;
-
-?>
-
