@@ -1,21 +1,21 @@
 @font-face {
     font-family: "Default";
-    src: url("../wp-content/uploads/fonts/HelveticaNeue.otf");
+    src: url("../fonts/HelveticaNeue.otf");
 }
 
 @font-face {
     font-family: "LogoT";
-    src: url("../wp-content/uploads/fonts/PlayfairDisplay.ttf");
+    src: url("../fonts/PlayfairDisplay.ttf");
 }
 
 @font-face {
     font-family: "LogoA";
-    src: url("../wp-content/uploads/fonts/BrannbollConnect.ttf");
+    src: url("../fonts/BrannbollConnect.ttf");
 }
 
 @font-face {
     font-family: "LogoQ";
-    src: url("../wp-content/uploads/fonts/AlumniSans.ttf");
+    src: url("../fonts/AlumniSans.ttf");
 }
 
 html {
@@ -31,12 +31,14 @@ body {
 }
 
 .logo {
-    font-size: 80px;
+    font-size: 3em;
 }
 
 .qubitalent {
     display: ruby;
     list-style: none;
+    padding-block-start: 0;
+    padding-inline-start: 0;
 }
 
 .qubitalent :first-child {
@@ -50,6 +52,29 @@ body {
 }
 
 .qubitalent :nth-child(3){
+    font-family: 'LogoA', serif;
+    font-size: 0.8em;
+    margin-left: -0.3em;
+}
+
+.qt_logo {
+    display: ruby;
+    list-style: none;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+}
+
+.qt_logo :first-child::before {
+    content: "\7C";
+}
+.qt_logo :first-child {
+    font-family: 'LogoQ', serif;
+}
+
+.qt_logo :nth-child(2)::after{
+    content: '\27E9';
+}
+.qt_logo :nth-child(2){
     font-family: 'LogoA', serif;
     font-size: 0.8em;
     margin-left: -0.3em;
