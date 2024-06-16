@@ -1,4 +1,4 @@
-<header class="navbar navbar-expand-lg bd-navbar sticky-top">
+<header class="navbar navbar-expand-lg bd-navbar">
 	<nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap"
 	     aria-label="Main navigation">
 
@@ -45,19 +45,11 @@
 				<ul class="navbar-nav flex-row flex-wrap ms-md-auto">
 					<li class="nav-item col-6 col-lg-auto">
 						<a class="nav-link py-2 px-0 px-lg-2"
-						   href="#QEC">Quantum Error Correction</a>
+						   href="#key">Key Features</a>
 					</li>
 					<li class="nav-item col-6 col-lg-auto">
 						<a class="nav-link py-2 px-0 px-lg-2"
-						   href="#AlgebraicQuantumCircuits">Algebraic Quantum Circuit</a>
-					</li>
-					<li class="nav-item col-6 col-lg-auto">
-						<a class="nav-link py-2 px-0 px-lg-2"
-						   href="#university">University</a>
-					</li>
-					<li class="nav-item col-6 col-lg-auto">
-						<a class="nav-link py-2 px-0 px-lg-2 btn"
-						   href="contact">contact</a>
+						   href="contact">Contact</a>
 					</li>
 				</ul>
 			</div>

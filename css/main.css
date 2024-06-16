@@ -24,10 +24,11 @@ html {
 
 :root {
     --bs-body-color: #072436;
+    --bs-body-bg: #F8F9FA;
 }
 
-body {
-    background-color: #F8F9FA;
+header{
+    background-color: var(--bs-body-bg);
 }
 
 .logo {
@@ -72,27 +73,32 @@ body {
 }
 
 .qt_logo :nth-child(2)::after{
+    font-size: 1em;
     content: '\27E9';
+}
+h1 > .qt_logo :nth-child(2){
+    margin-left: 0;
 }
 .qt_logo :nth-child(2){
     font-family: 'LogoA', serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin-left: -0.3em;
 }
 
 .frasecica {
     font-size: min(10vw, 10vh);
     text-align: center;
-    width: 100%;
     color: #f1f1f1;
     position:absolute;
     top:0;
     left:0;
     z-index:1;
+    height: 100vh;
+    width: 100vw;
 }
 
 #home-video {
-    width: 100%;
+    width: 100vw;
 }
 
 .video-container {
