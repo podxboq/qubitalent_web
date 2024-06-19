@@ -1,4 +1,5 @@
 <?php
+$pageId = 'index';
 $body = '
 <main clas="bd-main order-1">
 	<div class="video-container">
@@ -65,21 +66,24 @@ $body = '
 	Contact us and we will respond as soon as possible.
   </div>
   <div class="col-md-6">
-	<form class="row g-3" action="contact" method="post">
-    <label for="name" class="form-label">Name</label>
-    <input type="text" class="form-control" id="name">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
-    <label for="content" class="form-label">What do you like?</label>
-    <input type="text" class="form-control" id="content">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        I agree the <a href="#">terms and conditions</a>
-      </label>
-      </div>
-    <button type="submit" class="btn btn-outline-dark">Send</button>
-</form>
+	<form class="row g-3" action="contact" method="post" id="contactForm">
+	    <label for="name" class="form-label">Name</label>
+	    <input type="text" class="form-control" id="name" name="name" required>
+	    <label for="email" class="form-label">Email</label>
+	    <input type="email" class="form-control" id="email" name="email" required>
+	    <label for="content" class="form-label">What do you like?</label>
+	    <textarea class="form-control" id="content" name="content" required></textarea>
+	    <div class="form-check">
+	      <input class="form-check-input" type="checkbox" id="gridCheck" required>
+	      <label class="form-check-label" for="gridCheck">
+	        I accept the processing of my personal data for the purposes described in the <a href="privacity">Privacy Policy</a>.
+	      </label>
+	    </div>
+	    <button class="g-recaptcha btn btn-outline-dark" 
+        data-sitekey="6LdfovgpAAAAABmCHaYy8qsy2taBisZFXMM4Qarw" 
+        data-callback="onSubmit" 
+        data-action="submit">Send</button>
+	</form>
 	</div>
 	</div>
 </main>

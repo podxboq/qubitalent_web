@@ -1,5 +1,8 @@
 <?php
-/** @var string $body */
+/**
+ * @var string $body
+ * @var string $pageID
+ */
 
 ?>
 <!DOCTYPE html>
@@ -30,6 +33,14 @@
 	<link rel='stylesheet' href='css/bootstrap.min.css' type='text/css'/>
 	<link rel='stylesheet' href='css/main.css' type='text/css' media='all'/>
 	<script src="js/bootstrap.min.js"></script>
+	<?php if($pageID == 'index'): ?>
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+		<script>
+        function onSubmit(token) {
+            document.getElementById("contactForm").submit();
+        }
+		</script>
+	<?php endif; ?>
 </head>
 <body>
 	<?php include('header_layout.php'); ?>
