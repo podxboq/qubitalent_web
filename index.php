@@ -20,7 +20,7 @@ $body = '
 			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 				<div class="col">
 					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+						<img src="/images/Quantum_Error_Correction_On_Three_Quibits_with_no_Ancilla.png"></img>
 						<div class="card-body">
 							<h2>Quantum Error Correction</h2>
 							<p class="justify">Quantum error correction is a set of techniques used to protect the information stored in qubits from errors and decoherence caused by noise.</p>
@@ -33,23 +33,26 @@ $body = '
 				</div>
 				<div class="col">
 					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+						<img src="/images/teleportation_algebraic_circuit.png"></img>
 						<div class="card-body">
 						<h2>Algebraic Quantum Circuit</h2>
 							<p class="justify">The use of graphical language in quantum computing for the representation of algorithms, although intuitive, is not very useful for different tasks such as the description of quantum circuits in text environments, the calculation of quantum states or the optimization of quantum circuits.</p>
 		<p class="justify">While classical circuits can be represented either by circuit graphs or by Boolean expressions, quantum circuits have until now predominantly been illustrated as circuit graphs because no formal language for quantum circuits that allows algebraic manipulations has so far been accepted.</p>
 		<p class="justify">We proposes a means to represent quantum circuits in a convenient and concise manner, similar to the way Boolean expressions are used in classical circuits. The proposed notation allows the consistent and parameterized description of quantum algorithms, as well as the easy handling of the elements that compose it to achieve powerful optimizations in the number of gates of the circuits.</p>
 							<div class="d-flex justify-content-between align-items-center">
-								<div class="btn-group">
+							';
+							/*	<div class="btn-group">
 									<a href="aqc-qubits" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
+							*/
+$body .= '
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col">
 					<div class="card shadow-sm">
-						<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+						<img src="/images/university.jpg"></img>
 						<div class="card-body">
 <h2>University</h2>
 		<p class="justify">We know that the transfer of knowledge is necessary to train new generations, which is why we work with universities on training in this fascinating technological field.</p>
