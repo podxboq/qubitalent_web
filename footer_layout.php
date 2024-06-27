@@ -8,7 +8,7 @@
 					<use xlink:href="#bootstrap"></use>
 				</svg>
 			</a>
-			<span class="mb-3 mb-md-0">&copy; 2024</span>
+			<span class="mb-3 mb-md-0 pe-3">&copy; 2024</span>
 			<ul class="qt_logo mb-md-0">
 				<li>Q</li>
 				<li>t</li>
@@ -20,8 +20,6 @@
 			</ul>
 		</div>
 		<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-			<li class="ms-3"><a class="nav-link" href="rgpd">RGPD</a>
-			</li>
 			<li class="ms-3"><a class="nav-link" href="privacy">Privacy</a>
 			</li>
 		</ul>

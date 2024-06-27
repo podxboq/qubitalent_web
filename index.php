@@ -56,7 +56,7 @@ $body .= '
 						<div class="card-body">
 <h2>University</h2>
 		<p class="justify">We know that the transfer of knowledge is necessary to train new generations, which is why we work with universities on training in this fascinating technological field.</p>
-		<p class="justify">Together with the International University of La Rioja (UNIR) we teach the subject quantum computing for the physics degree and direct several TFMs for the quantum computing master"s degree.</p>						</div>
+		<p class="justify">Together with the International University of La Rioja (UNIR) we teach the subject quantum computing for the physics degree and direct several TFMs for the quantum computing master\'s degree.</p>						</div>
 					</div>
 				</div>
 			</div>
@@ -79,7 +79,7 @@ $body .= '
 	    <div class="form-check">
 	      <input class="form-check-input" type="checkbox" id="gridCheck" required>
 	      <label class="form-check-label" for="gridCheck">
-	        I accept the processing of my personal data for the purposes described in the <a href="privacity">Privacy Policy</a>.
+	        I accept the processing of my personal data for the purposes described in the <a href="privacy">Privacy Policy</a>.
 	      </label>
 	    </div>
 	    <button class="g-recaptcha btn btn-outline-dark" 

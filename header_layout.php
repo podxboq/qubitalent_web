@@ -45,11 +45,11 @@
 				<ul class="navbar-nav flex-row flex-wrap ms-md-auto">
 					<li class="nav-item col-6 col-lg-auto">
 						<a class="nav-link py-2 px-0 px-lg-2"
-						   href="#key">Key Features</a>
+						   href="/">Home</a>
 					</li>
 					<li class="nav-item col-6 col-lg-auto">
 						<a class="nav-link py-2 px-0 px-lg-2"
-						   href="#contact">Contact</a>
+						   href="privacy">Privacy</a>
 					</li>
 				</ul>
 			</div>

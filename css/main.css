@@ -22,6 +22,10 @@ html {
     font-family: "Default", serif;
 }
 
+p {
+    text-align: justify;
+}
+
 :root {
     --bs-body-color: #072436;
     --bs-body-bg: #F8F9FA;
