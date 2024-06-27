@@ -74,7 +74,7 @@ $body .= '
 	    <input type="text" class="form-control" id="name" name="name" required>
 	    <label for="email" class="form-label">Email</label>
 	    <input type="email" class="form-control" id="email" name="email" required>
-	    <label for="content" class="form-label">What do you like?</label>
+	    <label for="content" class="form-label">What do you want?</label>
 	    <textarea class="form-control" id="content" name="content" required></textarea>
 	    <div class="form-check">
 	      <input class="form-check-input" type="checkbox" id="gridCheck" required>
