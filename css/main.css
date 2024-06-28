@@ -18,12 +18,31 @@
     src: url("../fonts/AlumniSans.ttf");
 }
 
+@font-face {
+    font-family: "Titulo";
+    src: url("../fonts/AlumniSans.ttf");
+}
+
 html {
     font-family: "Default", serif;
 }
 
 p {
     text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Titulo", serif;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 1em 0 1em 0;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 1em 0 1em 0;
 }
 
 :root {
@@ -81,7 +100,8 @@ header{
     font-size: 1em;
     content: '\27E9';
 }
-h1 > .qt_logo :nth-child(2){
+h1 > .qt_logo :nth-child(2),
+h2 > .qt_logo :nth-child(2){
     margin-left: 0;
 }
 .qt_logo :nth-child(2){
