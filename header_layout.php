@@ -3,7 +3,7 @@
 	     aria-label="Main navigation">
 
 		<a class="navbar-brand p-0 me-0 me-lg-2" href="/" aria-label="Bootstrap">
-			<img src='images/logo.svg' alt='Logotipo' width='100px'>
+			<img src='images/logo.250x250.png' alt='Logotipo' width='100px'>
 		</a>
 		<div class='d-flex'>
 			<ul class='logo qubitalent'>
