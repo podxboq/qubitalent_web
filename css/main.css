@@ -1,3 +1,9 @@
+:root {
+    --bs-body-color: #072436;
+    --bs-body-bg: #F8F9FA;
+    --video-w: min(min(100vw, 1.68 * 100vh), 1296px);
+}
+
 @font-face {
     font-family: "Default";
     src: url("../fonts/HelveticaNeue.otf");
@@ -43,15 +49,6 @@ h1 {
 h2 {
     font-size: 2em;
     padding: 1em 0 1em 0;
-}
-
-:root {
-    --bs-body-color: #072436;
-    --bs-body-bg: #F8F9FA;
-}
-
-header{
-    background-color: var(--bs-body-bg);
 }
 
 .logo {
@@ -112,27 +109,22 @@ h2 > .qt_logo :nth-child(2){
 
 .frasecica {
     font-size: min(10vw, 10vh);
+    width: var(--video-w);
     text-align: center;
     color: #f1f1f1;
     position:absolute;
-    top:0;
-    left:0;
+    top:40px;
     z-index:1;
-    height: 100vh;
-    width: 100vw;
 }
 
 #home-video {
-    width: 100vw;
+    width: var(--video-w);
 }
 
 .video-container {
-    position: relative;
-}
-
-.video-container video {
-    position: relative;
-    z-index: 0;
+    text-align: center;
+    width: var(--video-w);
+    z-index: -1;
 }
 
 .justify {

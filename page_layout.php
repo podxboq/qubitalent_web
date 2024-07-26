@@ -44,9 +44,7 @@
 </head>
 <body>
 	<?php include('header_layout.php'); ?>
-	<div class="bd-content ps-lg-2">
 		<?= $body ?>
-	</div>
 	<?php include('footer_layout.php'); ?>
 </body>
 </html>

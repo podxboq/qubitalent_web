@@ -3,7 +3,7 @@
 require_once( 'qHtml.php' );
 $html   = new qHtml();
 $pageId = 'index';
-$body   = $html->getTag( 'main.bd-main order-1 > div.video-container', [
+$body   = $html->getTag( 'div.container position-relative > div.video-container', [
 	$html->getTag( 'video#home-video', $html->getTag( 'source', null,
 		'src="video/main-background.mp4" type="video/mp4"' ), 'autoplay loop muted' ),
 	$html->getTag( 'div.frasecica',
@@ -12,6 +12,8 @@ $body   = $html->getTag( 'main.bd-main order-1 > div.video-container', [
 			the <span style="white-space: nowrap"><span
 					class="nombre-primera_parte">Q</span>ubi<span class="nombre-tercera_parte">t</span></span>' ),
 ] );
+$body .= $html->getTag('div.clearfix');
+
 $body   .= $html->getTag( 'div.container', [
 	$html->getTag( 'h1', 'What is our main area of research?' ),
 	$html->getTag( 'h2', $html->getQT() . ' Quantum Error Correction' ),
@@ -41,12 +43,7 @@ $body   .= $html->getTag( 'div.container', [
 	] ),
 	] ),
 ] );
-/*							<div class="d-flex justify-content-between align-items-center">
-	<div class="btn-group">
-		<a href="aqc-qubits" class="btn btn-sm btn-outline-secondary">View</a>
-	</div>
-							</div>
-*/
+
 $body .= $html->getTag( 'div.container', [
 	$html->getTag( 'h1', 'Contact' ),
 	$html->getTag( 'div.row row-cols-1 row-cols-md-2 g-3', $html->getArrayTag( 'div.col-md-6', [
