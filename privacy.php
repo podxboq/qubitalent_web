@@ -1,5 +1,5 @@
 <?php
-$pageId = 'privacy';
+$pageID = 'privacy';
 $body = '
 	<div class="container">
 		<h1>Aviso legal y Política de Privacidad</h1>

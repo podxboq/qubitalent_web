@@ -2,7 +2,7 @@
 
 require_once( 'qHtml.php' );
 $html   = new qHtml();
-$pageId = 'index';
+$pageID = 'index';
 $body   = $html->getTag( 'div.container position-relative > div.video-container', [
 	$html->getTag( 'video#home-video', $html->getTag( 'source', null,
 		'src="video/main-background.mp4" type="video/mp4"' ), 'autoplay loop muted' ),

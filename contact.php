@@ -5,7 +5,9 @@ $email = $_POST['email'];
 $content = $_POST['content'];
 
 $mensaje = "$name dice: $content y quiere respuesta a $email";
-mail('qubitalent@qubitalent.com', 'Mensaje desde la web', $mensaje);
+if($email){
+    mail('qubitalent@qubitalent.com', 'Mensaje desde la web', $mensaje);
+}
 
 $body = '
 <div class="card text-center">
